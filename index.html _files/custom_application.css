@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+
+ul.tree li {
+    list-style: none;
+}
+
+ul.list-items li .glyphicon:before {
+    margin-left: -1em;
+}
+
+/* Content */
+
+.bordered-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Help */
+
+.help-text {
+    font-size: 110%;
+    font-style: italic;
+}
+.help-text a:focus{
+    text-decoration: underline;
+}
+
+/* Alert */
+
+.alert-warning{
+    color: #fff;
+}
+
+#alertConfirmModal{
+    z-index:99999;
+}
+
+/* General */
+
+.grid_modal{
+    z-index:9999;
+}
+
+/* */
+
+.top_nav .navbar-right{
+    width: initial;
+}
+
+.top_nav .dropdown-menu li a{
+    padding: 5px 15px;
+    white-space: initial;
+}
+
+.searchStudentsGlobalContent{
+    padding: 13px 15px 12px;
+}
+
+.fixed-header {
+    top:0;
+    position:fixed;
+    width:auto;
+    z-index: 1;
+}
+
+.select-pc-grid {
+    margin: 1px 30px;
+}
+.select-pc-categ{
+    margin: 2px 15px;
+}
+.select-pc-categ p{
+    margin: 0 0 2px;
+    color: lightslategray;
+}
+
+.isCountInGradeLabel > strong,
+.isCountInDiplomaLabel > strong {
+    font-weight: 600;
+}
+
+.isCountInGradeLabel > b,
+.isCountInDiplomaLabel > b {
+    font-size: 14px;
+}
+
+.btn-importScoreBoardGrades {
+    padding: 0px;
+}
+
+.help-text-popover-scoreboard{
+    font-size: 97%;
+}
+
+.scheduled-event-empty-hours-dot {
+    background-color: #fbbd50;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border : 1px solid #f9c806;
+    display: inline-block;
+}
+
+.k-event.scheduled-event-empty-hours {
+    background-color: #fbbd50;
+    border-color : #f9c806;
+}
+
+.scheduled-event-empty-day-dot {
+    background-color: #b9c3c6;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border : 1px solid #abb7ba;
+    display: inline-block;
+}
+
+.k-event.scheduled-event-empty-day {
+    background-color: #b9c3c6;
+    border-color : #abb7ba;
+}
+
+.scheduled-event-normal-dot {
+    background-color: #6ec9b5;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border : 1px solid #57c1aa;
+    display: inline-block;
+}
+
+.k-event.scheduled-event-normal {
+    background-color: #6ec9b5;
+    border-color : #57c1aa;
+}
+
+.scheduled-event-title {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.scheduled-event-tooltip {
+    background-color: #fff !important;
+    margin-top: 0px;
+}
+
+.scheduled-event-tooltip .k-tooltip-content {
+    color: #333;
+    text-align: initial;
+    padding: 3px 20px 0px 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 2px solid #6f8395;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(6, 6, 6, 0.3);
+}
+
+.k-scheduler-table .k-today {
+    background-color: #dbeaf0;
+    border-color: whitesmoke;
+}
+
+.description_title_left.dl-horizontal dt{
+    text-align: left;
+    white-space: normal;
+    width: 40%;
+}
+

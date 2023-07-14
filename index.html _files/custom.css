@@ -1,0 +1,827 @@
+@CHARSET "UTF-8";
+
+body {
+    background: #ccc;
+    font-family: Segoe UI, Tahoma, Helvetica, Sans-Serif !important;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.title {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 2px;
+    font-size: 120%;
+}
+
+.main_content_title {
+    margin-bottom: 10px;
+}
+
+.current-profile-description {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+    background: #172D44;
+    opacity: 0.8;
+    padding: 5px 3px 7px 7px;
+    margin: 5px 0px 20px 0px;
+}
+
+.nav-sm .current-profile-description {
+    display: none;
+}
+
+footer .powered-by-ilyda {
+    border-left: 2px solid #e1e5ea;
+    padding-left: 1px;
+    text-align: center;
+    position: relative;
+    float: right;
+    width: 130px;
+    font-size: 11px;
+}
+
+.p-padding {
+    padding: 0px 0px 10px;
+}
+
+/* General */
+.container-fluid {
+    padding: 0px;
+    width: 92%;
+    margin: 10px auto 10px;
+    max-width: 1600px !important;
+    box-shadow: 0px 0px 50px #FFFFFF;
+    -webkit-box-shadow: 0px 0px 50px #FFFFFF;
+    background: #fff;
+}
+
+.inner-content {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px;
+    border-radius: 0px;
+}
+
+.inner-content-none {
+    box-shadow: none;
+    background: #eee;
+    padding: 0px 10px;
+    border-radius: 0px;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.width-10 {
+    width: 10% !important;
+}
+
+.width-20 {
+    width: 20% !important;
+}
+
+.width-30 {
+    width: 30% !important;
+}
+
+.width-40 {
+    width: 40% !important;
+}
+
+.width-50 {
+    width: 50% !important;
+}
+
+.width-60 {
+    width: 60% !important;
+}
+
+.width-70 {
+    width: 70% !important;
+}
+
+.width-80 {
+    width: 80% !important;
+}
+
+.width-90 {
+    width: 90% !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.min-width-100 {
+    min-width: 100%;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-top-90 {
+    margin-top: 90px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.padding-left-50 {
+    padding-left: 50px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+.padding-right-30 {
+    padding-left: 30px;
+}
+
+.padding-right-50 {
+    padding-right: 50px;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.button-row {
+    min-width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: auto;
+    max-width: 1600px;
+    position: relative;
+}
+
+.footer .logo {
+    float: right;
+}
+
+.footer .text {
+    float: left;
+    padding-top: 5px;
+}
+
+.footer .powered-by {
+    text-align: right;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.nav-logo {
+    float: left;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 1px;
+}
+
+.uoa_logo {
+    padding: 10px;
+}
+
+/* Text */
+
+.text-underline{
+    text-decoration: underline;
+}
+
+/* Banner Logo */
+
+.banner-logo{
+    background: #752628;
+}
+
+/* Bootstrap textarea */
+textarea {
+    resize: none;
+}
+
+/* Menu - Navbar */
+#menu-button {
+    height: 50px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+/* Forms */
+
+label {
+    font-weight: 600;
+}
+
+.control-label {
+    text-align: left !important;
+}
+
+.control-label.right_aligned {
+    text-align: right;
+}
+
+.title-form-in-modal {
+    border-bottom: 1px solid #445b88;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 105%;
+    font-weight: 600;
+    color: #36486b;
+}
+
+.title-multiple-forms {
+    border-bottom: 1px solid #1c4263;
+    padding-bottom: 2px;
+    font-size: 115%;
+    font-weight: 400;
+    color: #163550;
+}
+
+.report-status {
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+label.has-error {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.input-group-addon {
+    width:inherit;
+}
+
+.btn-subtractionEntity {
+    opacity: 0.9;
+}
+
+.form-preview-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-left: 3px;
+    border: 2px solid #ccc;
+}
+
+/* Kendo Dropdown in Grid */
+#grid_dropdown-list {
+    min-width: 400px;
+}
+
+#grid_dropdown-list>.dropdown-header {
+    font-size: 1.2em;
+    padding: 0px;
+}
+
+#grid_dropdown-list>.dropdown-header>span {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    padding: .3em .6em;
+    width: 79%;
+}
+
+#grid_dropdown-list>.dropdown-header>span:first-child {
+    border-left-width: 0;
+}
+
+#grid_dropdown-list .k-item>span {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    vertical-align: super;
+    width: 79%;
+    padding: .6em 0 0 .6em;
+}
+
+#grid_dropdown-list .k-item>span:first-child {
+    border-left-width: 0;
+}
+
+.k-list-container {
+    width: auto !important;
+    min-width: 150px;
+}
+
+/* Menu Kendo Treeview */
+#treemenu {
+    float: left;
+    width: 220px;
+    overflow: visible;
+}
+
+.tree-section {
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tree-section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Kendo General */
+.k-webkit .k-dropdown-wrap:before,.k-webkit .k-picker-wrap:before,.k-webkit .k-numeric-wrap:before
+{
+    content: none;
+}
+
+input.kendo-input-disabled[type="text"]:disabled {
+    border-color: #fff;
+    text-indent: 0em;
+}
+
+.k-widget,.k-widget * {
+}
+
+.k-invalid {
+    border: 3px solid red;
+}
+
+.k-invalid:hover {
+    border-color: red;
+}
+
+.k-tooltip.k-tooltip-validation.k-invalid-msg .k-callout.k-callout-n {
+    left: 3%;
+}
+
+.k-picker-wrap .k-input {
+    height: auto;
+}
+
+.k-treeview span.k-in {
+    cursor: pointer;
+}
+
+.k-grid td {
+    overflow: visible;
+    white-space: normal;
+}
+
+.k-grid td:last-child {
+    white-space: initial;
+}
+
+.k-grid-header .k-header {
+    white-space: initial;
+    word-wrap: normal;
+    text-align: center;
+}
+
+.k-grid-background-row-success {
+    color: #2d8250;
+}
+
+.k-grid-background-row-success.k-state-selected{
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.k-grid-background-row-fail {
+    color: #844040;
+}
+
+.k-grid-background-row-fail.k-state-selected{
+    background-color: #d9534f;
+    color: #fff;
+}
+
+html .k-edit-cell .k-tooltip, html .k-grid-edit-row .k-tooltip {
+    max-width: none;
+}
+
+.k-grid-content {
+    overflow-y: auto;
+}
+
+.k-grid-header {
+    padding-right: 0px !important;
+}
+
+tr.k-detail-row {
+    background-color: #fff;
+}
+
+td.k-detail-cell {
+    padding: 28px 28px 28px 10px;
+}
+
+#details-container {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Datepicker */
+.datepicker.dropdown-menu {
+    background-color: #fff;
+}
+
+/* Sorting */
+[data-sort="ASC"]:after {
+    content: ' \e113';
+    font-family: 'Glyphicons Halflings';
+    font-size: x-small;
+}
+
+[data-sort="DESC"]:after {
+    content: ' \e114';
+    font-family: 'Glyphicons Halflings';
+    font-size: x-small;
+}
+
+/* Arrows */
+
+.arrow-n,
+.arrow-e,
+.arrow-s,
+.arrow-w {
+    /*
+     * In Internet Explorer, The"border-style: dashed" will never be
+     * rendered unless "(width * 5) >= border-width" is true.
+     * Since "width" is set to "0", the "dashed-border" remains
+     * invisible to the user, which renders the border just like how
+     * "border-color: transparent" renders.
+     */
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.53em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 10px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+}
+
+.arrow-n {
+    border-bottom-width: 1em;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+    bottom: 0.25em;
+}
+
+.arrow-e {
+    border-left-width: 1em;
+    border-left-style: solid;
+    border-left-color: #666;
+    left: 0.25em;
+}
+
+.arrow-s {
+    border-top-width: 1em;
+    border-top-style: solid;
+    border-top-color: #666;
+    top: 0.25em;
+}
+
+.arrow-w {
+    border-right-width: 1em;
+    border-right-style: solid;
+    border-right-color: #666;
+    right: 0.25em;
+}
+
+/* Sidebar modules */
+
+.sidebar-module-inset {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+}
+.sidebar-module {
+    margin: 0px -15px 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.sidebar-module .sidebar-module-header {
+    border-bottom: 1px solid #ccc;
+    background: #831d24;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.sidebar-module .sidebar-module-content {
+    padding: 10px;
+}
+
+/* New course and update course pages styling */
+.side-menu-tab.active a{
+    background-color: #337ab7!important;
+    color: white!important;
+}
+
+/* Radio Buttons */
+.radio-label-blue{
+    color: #4d6699;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* Buttons */
+.btn-outline-grid {
+    color: #1e7994;
+    background-image: none;
+    background-color: white;
+    border-color: #56bddc;
+}
+.btn-outline-grid:hover {
+    color: white;
+    background-color: #67c5e0;
+    opacity: 0.8;
+    border-color: #aadeee;
+    background-position: 0 -15px;
+}
+
+.btn-outline-blue-green {
+    width: 230px;
+    color: #0f638a;
+    background-image: none;
+    background-color: white;
+    border-color: #0c5373;
+}
+.btn-outline-blue-green:hover {
+    color: white;
+    background-color: #0f638a;
+    opacity: 0.9;
+    border-color: #1173a2;
+    background-position: 0 -15px;
+}
+
+.btn-outline-primary {
+    color: #2A3F54;
+    border-color: #334c66;
+    background-color: white;
+}
+
+.btn-saveEntity.active, .btn-saveEntity.focus, .btn-saveEntity:active, .btn-saveEntity:focus, .btn-saveEntity:hover, .open>.dropdown-toggle.btn-saveEntity{
+    color: #fff;
+    background-color: #334d66;
+    border-color: #334d66;
+}
+
+.btn-saveEntity {
+    color: #fff;
+    background-color: #3c5977;
+    border-color: #334c66;
+}
+.btn-saveEntity.active, .btn-saveEntity.focus, .btn-saveEntity:active, .btn-saveEntity:focus, .btn-saveEntity:hover, .open>.dropdown-toggle.btn-saveEntity{
+    color: #fff;
+    background-color: #334d66;
+    border-color: #334d66;
+}
+
+/* Others */
+
+.form-html-content {
+    background-color: transparent;
+    overflow-x: hidden;
+    text-align: left;
+    height: 40em !important;
+    background-color: #ffffff;
+    text-indent: 0;
+    border: 1px solid whitesmoke !important;
+    border-radius: 3px;
+    padding: 3px !important;
+}
+
+.select-file {
+    width: 82%;
+    margin: 5px 0px 5px 0px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.check_excel_pre_work {
+    font-size: 14px;
+}
+
+.afterPreImportWorkEl {
+    width: 82%;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.tableTitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: #35404b;
+}
+
+.copy-periods-table {
+    background-color: white;
+}
+
+.resultsLabelFailed {
+    font-size: 14px;
+    font-weight: bold;
+    color: #844848;
+}
+
+.resultsLabelDone {
+    font-size: 14px;
+    font-weight: bold;
+    color: #456e64;
+}
+
+.left_col::-webkit-scrollbar {
+    width: 1px;
+}
+
+.accordion-btn {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.passed-program-course-accordion {
+    background-color: #e9fcf1;
+    opacity: .7;
+}
+
+.papaya-warning {
+    background-color: papayawhip;
+    opacity: .7;
+}
+
+.success-dot {
+    height: 20px;
+    width: 20px;
+    background-color: #e9fcf1;
+    border-radius: 50%;
+    border : 1px solid slategrey;
+    display: inline-block;
+}
+.papaya-dot {
+    height: 20px;
+    width: 20px;
+    background-color: papayawhip;
+    border-radius: 50%;
+    border : 1px solid slategrey;
+    display: inline-block;
+}
+
+.registrationPeriodHeader .col-md-2 {
+    padding-left: 0px;
+}
+
+.alert-disclaimer-warning {
+    color: #333; 
+    background-color: #faecd1; 
+    border-color: #faebcc;
+    font-weight: 600;
+}
+
+/*.left_col::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.left_col::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}*/
+
+/*Sticky header classes*/
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width:100%
+}
+
+.stickyling {
+    background-color: whitesmoke !important
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.success-grades-dot {
+    height: 20px;
+    width: 20px;
+    background-color: #2d8250;
+    border-radius: 50%;
+    border : 1px solid slategrey;
+    display: inline-block;
+}
+
+.failed-grades-dot {
+    height: 20px;
+    width: 20px;
+    background-color: #844040;
+    border-radius: 50%;
+    border : 1px solid slategrey;
+    display: inline-block;
+}
+
+.neutral-grades-dot {
+    height: 20px;
+    width: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    border : 1px solid slategrey;
+    display: inline-block;
+}
+
+.k-grid-composite-child {
+    color : #5f7286 !important;
+}
+
+.k-grid-no-composite {
+    color : #0f705e !important;
+}
+
+.k-grid-composite-father {
+    color : #290066 !important;
+}
+
+
+.form-box {
+    background-color: transparent;
+    overflow-x: hidden;
+    text-align: left;
+    height: 5.2em !important;
+    background-color: #ffffff;
+    text-indent: 0;
+}
